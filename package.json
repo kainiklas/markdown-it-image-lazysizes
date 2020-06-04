@@ -1,0 +1,23 @@
+{
+  "name": "markdown-it-image-lazysizes",
+  "version": "1.0.0",
+  "description": "A markdown-it plugin to lazy load images with lazysizes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "lazyload",
+    "lazysizes"
+  ],
+  "author": "Kai Niklas <info@kai-niklas.de>",
+  "homepage": "https://github.com/kainiklas/markdown-it-image-lazysizes",
+  "repository": "https://github.com/kainiklas/markdown-it-image-lazysizes.git",
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it": "^11.0.0",
+    "tape": "^5.0.1"
+  }
+}
