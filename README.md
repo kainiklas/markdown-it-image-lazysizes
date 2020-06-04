@@ -36,7 +36,6 @@ Add the `lazysize` javascript:
 ## Related Information
 
 - [Lazy load offscreen images with lazysizes](https://web.dev/codelab-use-lazysizes-to-lazyload-images/)
-- [Gatsby](https://www.gatsbyjs.org/packages/gatsby-remark-lazy-load/?=lazy-load)
 
 ## Contribution
 
