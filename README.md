@@ -2,10 +2,18 @@
 
 A markdown-it plugin to support lazy loading of images using [lazysizes](https://github.com/aFarkas/lazysizes).
 
+The plugin makes lazyload possible by:
+
+- Move `src` to `data-src`
+- Add class `lazyload` to img tag.
+
+[lazysizes](https://github.com/aFarkas/lazysizes) has to be installed to make this plugin work.
+
 ## Install
 
 ```bash
-npm install markdown-it-image-lazysizes
+npm i -D markdown-it-image-lazysizes
+npm i -D lazysizes
 ```
 
 ## Usage
@@ -16,14 +24,20 @@ const lazy_loading = require('markdown-it-image-lazysizes');
 md.use(lazy_loading);
 
 md.render(`![](example.png "image title")`);
-// <p><img src="example.png" alt="" title="image title" class="lazyloading"></p>\n
+// <p><img alt="" title="image title" class="lazyloading" data-src="example.png"></p>\n
 ```
 
-## More Information
+Add the `lazysize` javascript:
+
+```html
+<script src="lazysizes.min.js" async></script>
+```
+
+## Related Information
 
 - [Lazy load offscreen images with lazysizes](https://web.dev/codelab-use-lazysizes-to-lazyload-images/)
 - [Gatsby](https://www.gatsbyjs.org/packages/gatsby-remark-lazy-load/?=lazy-load)
 
-## License
+## Contribution
 
-MIT
+This is a minimum plugin. Please open an issue when you need more functionalities or something doesn't work!
