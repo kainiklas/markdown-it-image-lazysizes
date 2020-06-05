@@ -1,5 +1,7 @@
 # markdown-it-image-lazysizes
 
+![npm](https://img.shields.io/npm/v/markdown-it-image-lazysizes.svg?style=flat-square)
+
 A markdown-it plugin to support lazy loading of images using [lazysizes](https://github.com/aFarkas/lazysizes).
 
 The plugin makes lazyload possible by:
